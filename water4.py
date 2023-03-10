@@ -224,7 +224,7 @@ with tab_calculator:
         number_showers_per_week_pp=st.slider(':shower: How many shower per week per person?', min_value=0, max_value=14, value=5, step=1,key='slider_showers_per_week')
         washing_machine_capacity=st.radio(':question: Washing machine capacity',    (33.0,50.0,72.0))
         number_of_washes_per_week=st.slider(':question: Number of washing machine loads per week?', min_value=0, max_value=6, value=2, step=1,key='slider_number_washes')
-        garden_hose_hours_per_week=st.slider(':sunflower: Hours of garden hose per week?', min_value=0, max_value=6, value=2, step=1,key='slider_garden_hose')
+        garden_hose_hours_per_week=st.slider(':sunflower: Hours of garden hose per week?', min_value=0, max_value=6, value=0, step=1,key='slider_garden_hose')
 
         
 
