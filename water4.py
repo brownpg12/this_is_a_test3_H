@@ -296,7 +296,7 @@ with tab_selected_day:
     col1b, col2b = st.columns(2)
     with col1b:
         if 'date_picker' not in st.session_state:
-            st.session_state.date_picker=datetime.date(2021, 3, 1)
+            st.session_state.date_picker=datetime.date(2022, 5, 1)
         
         #this_day=st.date_input("Selected date",min_value=min_date,max_value=max_date,key='date_picker',value=datetime.date(2023, 3, 1))
         this_day=st.date_input("Selected date",key='date_picker')
